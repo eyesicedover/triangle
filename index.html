@@ -7,9 +7,33 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>triangle</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>This is a triangle machine!</h1>
+      </div>
+      <form id="triForm">
+        <div class="form-group">
+          <label for="side1">Triangle Side 1</label>
+          <input id="side1" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="side2">Triangle Side 1</label>
+          <input id="side2" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="side3">Triangle Side 1</label>
+          <input id="side3" class="form-control" type="number">
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
 
+      </form>
+      <p id="equilateral">Equilateral</p>
+      <p id="scalene">Scalene</p>
+      <p id="isosceles">Isosceles</p>
+      <p id="notTri">That's not even a triangle, you idiot!</p>
+    </div>
   </body>
 </html>

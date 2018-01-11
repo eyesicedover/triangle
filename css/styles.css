@@ -1,0 +1,14 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/20/15/50/triangle-1995195_1280.png");
+  /*background-repeat: no-repeat;*/
+  background-size: 33%;
+  background-position:center;
+  height: 100%;
+  width: 100%;
+}
+
+p{
+  display: none;
+  text-align: center;
+  font-size: 20px;
+}
