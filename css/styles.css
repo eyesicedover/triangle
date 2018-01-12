@@ -1,4 +1,5 @@
 body {
+  
   background-image: url("https://cdn.pixabay.com/photo/2017/01/20/15/50/triangle-1995195_1280.png");
   /*background-repeat: no-repeat;*/
   background-size: 33%;
@@ -6,7 +7,13 @@ body {
   height: 100%;
   width: 100%;
 }
-
+.jumbotron{
+  color: white;
+}
+.jumbotron, .btn{
+  background: linear-gradient(60deg, #A47DC2, #B0C5C5, #F7C890, #F7C1A3, #F5AA95, #F48D85);
+  /*opacity: 0.95;*/
+}
 p{
   display: none;
   text-align: center;

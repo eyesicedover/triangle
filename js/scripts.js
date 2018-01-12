@@ -7,14 +7,14 @@ $(document).ready(function(){
     $("p").hide();
     if(tri1 === tri2 && tri1 === tri3) {
       $("p#equilateral").show();
-    } else if (tri1 === tri2 || tri2 === tri1 || tri1 ===tri3) {
+    } else if (tri1 === tri2 || tri2 === tri3 || tri1 ===tri3) {
       $("p#isosceles").show();
     } else if ((tri1+tri2) > tri3 || (tri2+tri3) > tri1 || (tri1+tri3) > tri2) {
       $("p#notTri").show();
     } else {
       $("p#scalene").show();
     }
-    alert(tri1);
+
     event.preventDefault();
   });
 
